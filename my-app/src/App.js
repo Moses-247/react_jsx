@@ -14,22 +14,20 @@ const firstName = "YourFirstName"; // Replace with your first name or leave as a
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Card style={{ width: '18rem', margin: 'auto', marginTop: '50px', textAlign: 'center' }}>
+        <Card.Body>
+          <Name name={product.name} />
+          <Price price={product.price} />
+          <Description description={product.description} />
+          <ProductImage imgPath={product.imgPath} />
+        </Card.Body>
+      </Card>
+      <h2 style={{ textAlign: 'center', marginTop: '20px' }}>
+        Hello, {firstName ? firstName : "there"}!
+      </h2>
+      {firstName && <img src={product.imgPath} alt={product.name} style={{ display: 'block', margin: '20px auto' }} />}
+    </Container>
   );
 }
 
