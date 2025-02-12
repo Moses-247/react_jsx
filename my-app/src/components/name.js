@@ -1,4 +1,3 @@
-// src/components/Name.js
 import React from 'react';
 
 function Name({ name }) {

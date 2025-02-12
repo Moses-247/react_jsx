@@ -1,4 +1,3 @@
-// src/components/Image.js
 import React from 'react';
 
 function ProductImage({ imgPath }) {

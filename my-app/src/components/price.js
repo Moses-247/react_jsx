@@ -1,4 +1,3 @@
-// src/components/Price.js
 import React from 'react';
 
 function Price({ price }) {

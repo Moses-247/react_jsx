@@ -1,4 +1,3 @@
-// src/components/Description.js
 import React from 'react';
 
 function Description({ description }) {

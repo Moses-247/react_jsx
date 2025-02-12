@@ -9,7 +9,7 @@ import Price from './components/price';
 import Description from './components/description';
 import ProductImage from './components/image';
 
-const firstName = " "; // Replace with your first name or leave as an empty string
+const firstName = " Moses";
 
 
 function App() {
