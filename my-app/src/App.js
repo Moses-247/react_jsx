@@ -1,5 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { Container, Card } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import product from './product';
+import Name from './components/Name';
+import Price from './components/Price';
+import Description from './components/Description';
+import ProductImage from './components/Image';
+
+const firstName = "YourFirstName"; // Replace with your first name or leave as an empty string
+
 
 function App() {
   return (
