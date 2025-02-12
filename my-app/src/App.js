@@ -4,12 +4,12 @@ import React from 'react';
 import { Container, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import product from './product';
-import Name from './components/Name';
-import Price from './components/Price';
-import Description from './components/Description';
-import ProductImage from './components/Image';
+import Name from './components/name';
+import Price from './components/price';
+import Description from './components/description';
+import ProductImage from './components/image';
 
-const firstName = "YourFirstName"; // Replace with your first name or leave as an empty string
+const firstName = " "; // Replace with your first name or leave as an empty string
 
 
 function App() {
